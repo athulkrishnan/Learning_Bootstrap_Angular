@@ -12,8 +12,14 @@
 
 <body>
     <div class="container">
-        <h1>Hello, {{name || 'World'}}</h1>
-        <input type="text" ng-model="name">
+        <div class="page-header">
+            <h1> Chapter One <small>Hello, World!</small></h1>
+        </div>
+        <div class="jumbotron">
+            <h1>Hello, {{name || 'World'}}</h1>
+            <label for="name">Enter your name</label>
+            <input type="text" ng-model="name" class="form-control input-lg" id="name">
+        </div>
     </div>
 </body>
 
