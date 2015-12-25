@@ -1,3 +1,3 @@
-function AppCtrl ($scope) {
+function AppCtrl($scope) {
     $scope.name = "World";
 }
